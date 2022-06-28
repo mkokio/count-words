@@ -11,7 +11,7 @@ def count_words(book):
                     break
                 print(f"\tThe word '{word_lookup}' appears {contents.split().count(word_lookup)} times in file '{book}'.")
     except FileNotFoundError:
-        print(f"File ({book})not found.")   #Write 'pass' to silently ignores the error
+        print(f"File ({book}) not found.")   #Write 'pass' to silently ignore error
 
 print("For example: 'alice' 'bible' 'lotr'\n")
 while True:

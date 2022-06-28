@@ -15,7 +15,7 @@ def count_words(book):
                             x += 1 #adds to the counter
                 print(f"\tThe word '{word_lookup}' appears {x} times in file '{book}'.")
     except FileNotFoundError:
-        print(f"\nFile ({book})not found.") #Write 'pass' to silently ignores the error
+        print(f"\nFile ({book}) not found.") #Write 'pass' to silently ignore the error
 
 print("For example: 'alice' 'bible' 'lotr'\n") #
 while True:
